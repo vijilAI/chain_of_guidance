@@ -1,7 +1,7 @@
-# ConsistencyTuning
+# chain_of_guidance
 **Improving Consistency in Large Language Models through Chain of Guidance**
 
-ConsistencyTuning is a framework for enhancing the consistency of large language models by leveraging our proposed **Chain of Guidance** prompting technique and fine-tuning methodologies. This approach is designed to benchmark and improve the consistency of LLMs.
+`chain_of_guidance` is a framework for enhancing the consistency of large language models by leveraging our proposed **Chain of Guidance** prompting technique and fine-tuning methodologies.
 
 ---
 
