@@ -12,12 +12,10 @@ Follow the steps below to set up the environment and dependencies:
 ### 1. Clone the Repository
 ```bash
 # Clone the repository
-git clone https://github.com/vijilAI/altus.git
-cd altus
+git clone https://github.com/vijilAI/chain_of_guidance.git
 
 # Initialize axolotl submodule
-git submodule init
-git submodule update
+git submodule update --init --recursive
 ```
 
 ### 2. Create a Virtual Environment
@@ -29,7 +27,7 @@ conda activate venv
 
 ### 3. Install Dependencies
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 
 # Install PyTorch with CUDA support
 conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=12.1 -c pytorch -c nvidia
