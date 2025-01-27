@@ -1,0 +1,3 @@
+[submodule "finetune/axolotl"]
+	path = finetune/axolotl
+	url = https://github.com/axolotl-ai-cloud/axolotl.git
