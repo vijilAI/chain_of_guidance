@@ -19,7 +19,7 @@ def llm_prompting(input, method=1, llm=None):
         template=PP_TEMPLATE,
     )
     if llm is None:
-        llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="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",)
+        llm = ChatOpenAI(model_name="gpt-3.5-turbo")
     messages = [
         HumanMessage(content=pp_prompt.format(method=str(method), sentence=input))
     ]
