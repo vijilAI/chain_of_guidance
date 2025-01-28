@@ -5,13 +5,11 @@ from abc import ABC, abstractmethod
 
 from .pp import ParaphraseDetector
 from .nli import Contradiction, Entailment
-from .agreement import BLEU, BERTScore, AgreementNER, AgreementLLM
+from .agreement import BLEU, BERTScore
 
 metric_mappings = {
     "bleu": BLEU,
     "bertscore": BERTScore,
-    "ner": AgreementNER,
-    "llm": AgreementLLM,
     "pp": ParaphraseDetector,
     "entailment": Entailment,
     "contradiction": Contradiction,
